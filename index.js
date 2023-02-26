@@ -27,7 +27,7 @@ class Client {
 	 */
 	connect(url) {
 		if (!url) {
-			throw new Error('You did no pass a URL string to connect()').
+			throw new Error('You did not pass a URL string to connect()').
 		}
 		return new this.constructor(url);
 	}
